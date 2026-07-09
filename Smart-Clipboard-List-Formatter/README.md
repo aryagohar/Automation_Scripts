@@ -26,6 +26,7 @@ python Smart Clipboard List Formatter.py
 ________________________________________
 ## Features
 - Standalone Windows executable (.exe) available in the Releases section.
+  
 **Clipboard Integration**
 - Reads input directly from the system clipboard.
 - Automatically copies the formatted result back to the clipboard.
@@ -38,7 +39,7 @@ Supports the following separators:
 - Hyphens (-)
 - Commas (,)
 - Spaces (any whitespace)
-- Any custom separator string entered by the user
+- Any custom separator string entered by the user.
 If no separator is entered:
 - New lines are used when present.
 - Otherwise periods (.) are used automatically.
@@ -82,10 +83,10 @@ Example:
 2. Orange
 3. Banana
 - ersian/Arabic text automatically receives Persian digits.
-Example:
-1.	سیب
-2.	پرتقال
-3.	موز
+Example:  
+۱. سیب
+۲. پرتقال
+۳. موز
 No configuration is required.
 ________________________________________
 **Optional Ending Period**
@@ -206,9 +207,12 @@ Example 3 – Persian Numbering
 Clipboard:
 سیب، پرتقال، موز
 Output:
-1. سیب
-2.  پرتقال
-3.   موز
+
+۱. سیب
+۲. پرتقال
+۳. موز
+
+No configuration is required.
 The program automatically detects RTL text and switches to Persian digits.
 ________________________________________
 Example 4 – Custom Prefix
