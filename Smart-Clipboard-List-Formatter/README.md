@@ -254,11 +254,7 @@ Example 4 – Custom Prefix
 
 Clipboard:
 
-Install Python
-و
-Install Git
-و
-Create Repository
+Install Python, Install Git, Create Repository
 
 Prefix:  ✓
 
@@ -274,15 +270,15 @@ ________________________________________
 
 User Input	Separator
 
-1	New line (\n)
+1.	New line (\n)
 
-2	Period (.)
+2.	Period (.)
 
-3	Hyphen (-)
+3.	Hyphen (-)
 
-4	Comma (,)
+4.	Comma (,)
 
-5	space(Whitespace)
+5.	space(Whitespace)
 
 Any other text	Custom separator
 
