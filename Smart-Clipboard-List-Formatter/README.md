@@ -52,14 +52,7 @@ Generate:
 - Markdown lists
 - Checklist prefixes
 - Quoted text
-Examples of custom prefixes:
--
-*
->
-•
-✓
-→
-■
+Examples of custom prefixes: - * > • ✓ → ■
 ________________________________________
 ### Intelligent RTL Language Support
 One of the major features of this utility is automatic handling of right-to-left languages.
@@ -73,20 +66,22 @@ Supported examples include:
 - Correct display in Markdown editors
 - Correct display in browsers
 - Correct display in most modern text editors
-Mixed Persian and English content is handled correctly.
+  Mixed Persian and English content is handled correctly.
 ________________________________________
 **Automatic Number Localization**
 When numbered output is selected:
-- nglish text receives English digits.
-Example:
+- English text receives English digits.
+ Example:
 1. Apple
 2. Orange
 3. Banana
-- ersian/Arabic text automatically receives Persian digits.
-Example:  
+- Persian/Arabic text automatically receives Persian digits.
+  Example:
+  
 ۱. سیب
 ۲. پرتقال
 ۳. موز
+
 No configuration is required.
 ________________________________________
 **Optional Ending Period**
@@ -95,6 +90,7 @@ Example without period:
 1. Apple
 2. Orange
 3. Banana
+   
 Example with period:
 1. Apple is a fruit.
 2. I like travelling.
@@ -102,13 +98,14 @@ Example with period:
 ________________________________________
 **Automatic Cleanup**
 The formatter automatically:
-- emoves empty items
+- Removes empty items
 - Trims leading spaces
 - Trims trailing spaces
 - Ignores blank lines
 ________________________________________
 **Requirements**
 - Python 3.8 or newer
+  
 **Dependency**
 ```bash 
 pip install pyperclip
@@ -153,18 +150,16 @@ ________________________________________
 Step 4
 Choose how each line should begin.
 Either
-•	enter a starting number
-Example
+
+-Enter a starting number
+Example:
 1
 or
-•	enter any custom prefix
-Examples
--
-*
->
-•
-✓
-Pressing Enter starts numbering from 1.
+
+-Enter any custom prefix
+Examples: - * > • ✓
+
+- Pressing Enter starts numbering from 1.
 ________________________________________
 Step 5
 Choose whether each generated line should end with a period.
@@ -176,11 +171,15 @@ Simply paste it wherever you need.
 ________________________________________
 Examples
 Example 1 – Numbered English List
+
 Clipboard:
 Apple, Orange, Banana, Mango
+
 Select Separator: ,
 Starting number: 1
+
 Output:
+
 ```text
 1. Apple
 2. Orange
@@ -194,8 +193,11 @@ Python
 Java
 Rust
 Go
+
 Prefix: -
+
 Output:
+
 ```text
 - Python
 - Java
@@ -204,24 +206,33 @@ Output:
 ```
 ________________________________________
 Example 3 – Persian Numbering
+
 Clipboard:
 سیب، پرتقال، موز
+
 Output:
 
 ۱. سیب
 ۲. پرتقال
 ۳. موز
 
+
 No configuration is required.
+
 The program automatically detects RTL text and switches to Persian digits.
 ________________________________________
 Example 4 – Custom Prefix
+
 Clipboard:
+
 Install Python
 Install Git
 Create Repository
+
 Prefix:  ✓
+
 Output:
+
 ```text
 ✓ Install Python
 ✓ Install Git
