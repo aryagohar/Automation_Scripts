@@ -33,6 +33,7 @@ ________________________________________
 - No intermediate files required.
 ________________________________________
 **Flexible Text Splitting**
+
 Supports the following separators:
 - New lines
 - Periods (.)
@@ -40,11 +41,13 @@ Supports the following separators:
 - Commas (,)
 - Spaces (any whitespace)
 - Any custom separator string entered by the user.
+
 If no separator is entered:
 - New lines are used when present.
 - Otherwise periods (.) are used automatically.
 ________________________________________
 **Multiple List Styles**
+
 Generate:
 - Numbered lists
 - Bulleted lists
@@ -59,6 +62,7 @@ One of the major features of this utility is automatic handling of right-to-left
 Supported examples include:
 - Persian (Farsi)
 - Arabic
+
 **Features include:**
 - Automatic RTL detection
 - Automatic insertion of Unicode direction marks
@@ -69,6 +73,7 @@ Supported examples include:
   Mixed Persian and English content is handled correctly.
 ________________________________________
 **Automatic Number Localization**
+
 When numbered output is selected:
 - English text receives English digits.
  Example:
@@ -78,25 +83,32 @@ When numbered output is selected:
 - Persian/Arabic text automatically receives Persian digits.
   Example:
   
+
 ۱. سیب
+
 ۲. پرتقال
+
 ۳. موز
 
 No configuration is required.
 ________________________________________
 **Optional Ending Period**
+
 The program can automatically append a period to every generated line.
 Example without period:
+
 1. Apple
 2. Orange
 3. Banana
    
 Example with period:
+
 1. Apple is a fruit.
 2. I like travelling.
 3. He is my best friend.
 ________________________________________
 **Automatic Cleanup**
+
 The formatter automatically:
 - Removes empty items
 - Trims leading spaces
@@ -112,6 +124,7 @@ pip install pyperclip
 ```
 ________________________________________
 **Installation**
+
 Clone the repository:
 ```bash 
 git clone https://github.com/aryagohar/ Automation_Scripts.git
@@ -130,6 +143,7 @@ python Smart Clipboard List Formatter.py
 ```
 ________________________________________
 **Usage**
+
 Step 1
 Copy some text to your clipboard.
 ________________________________________
@@ -138,6 +152,7 @@ Run the program.
 ________________________________________
 Step 3
 Choose how the clipboard text is separated.
+
 ```text
 1. New line
 2. Period
@@ -152,30 +167,38 @@ Choose how each line should begin.
 Either
 
 -Enter a starting number
+
 Example:
 1
+
 or
 
 -Enter any custom prefix
+
 Examples: - * > • ✓
 
 - Pressing Enter starts numbering from 1.
 ________________________________________
 Step 5
+
 Choose whether each generated line should end with a period.
 Do you want to end each line of the result with a period? (y/n)
 ________________________________________
 Step 6
+
 The formatted result is automatically copied back to the clipboard.
 Simply paste it wherever you need.
 ________________________________________
 Examples
+
 Example 1 – Numbered English List
 
 Clipboard:
+
 Apple, Orange, Banana, Mango
 
 Select Separator: ,
+
 Starting number: 1
 
 Output:
@@ -188,7 +211,9 @@ Output:
 ```
 ________________________________________
 Example 2 – Markdown Bullet List
+
 Clipboard:
+
 Python
 Java
 Rust
@@ -208,12 +233,16 @@ ________________________________________
 Example 3 – Persian Numbering
 
 Clipboard:
-سیب، پرتقال، موز
+سیب،
+پرتقال،
+موز
 
 Output:
 
 ۱. سیب
+
 ۲. پرتقال
+
 ۳. موز
 
 
@@ -240,7 +269,9 @@ Output:
 ```
 ________________________________________
 **Supported Separators**
+
 User Input	Separator
+
 1	New line (\n)
 2	Period (.)
 3	Hyphen (-)
@@ -261,8 +292,11 @@ ________________________________________
 - Formatting Persian and English mixed documents
 ________________________________________
 **Project Structure**
+
 Smart Clipboard List Formatter.py
+
 Main components:
+
 - Clipboard handling
 - Text splitting
 - List formatting
@@ -271,8 +305,10 @@ Main components:
 - Persian digit conversion
 ________________________________________
 **License**
+
 This project is licensed under the MIT License.
 ________________________________________
 **Acknowledgements**
+
 This project uses the excellent pyperclip library for cross-platform clipboard access.
 Special attention has been given to proper handling of right-to-left languages and Unicode text direction to ensure reliable results across modern editors and applications.
