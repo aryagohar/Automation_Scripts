@@ -26,6 +26,7 @@ def line_formatter(lines, start_number, flag, full_stop):
     """ Add a number plus a period or only a character to the beginning of each line """
     result_str = ""
     temp = ""
+    formatted_lines = []
     for line in lines:
         line = line.strip()
         if not line:
@@ -49,8 +50,11 @@ def line_formatter(lines, start_number, flag, full_stop):
             temp = start_number + ' ' + line + ('.' if full_stop.lower() == 'y' else '')
             temp = apply_direction(temp)
 
-        # Turn numbered output into a string again
-        result_str += temp + '\n'
+        # Append the numbered output to a list
+        formatted_lines.append(temp)
+        
+    # Concatenate list items into a final string
+    result_str = '\n'.join(formatted_lines)
 
     return result_str
 
