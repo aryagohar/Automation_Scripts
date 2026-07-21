@@ -40,30 +40,12 @@ installing Python.
 
 ## Available Scripts
 
-  ------------------------------------------------------------------------------------
-  Script        Description                         Folder
-  ------------- ----------------------------------- ----------------------------------
-  **Smart       Converts clipboard text into        `Smart-Clipboard-List-Formatter`
-  Clipboard     numbered or prefixed lists with RTL 
-  List          (Persian/Arabic) support.           
-  Formatter**                                       
-
-  **Smart File  Renames numbered files by filling   `Smart-File-Number-Renamer`
-  Number        gaps in sequential numbering while  
-  Renamer**     preserving leading zeros.           
-
-  *(More        Additional automation tools are     ---
-  utilities     under development.                  
-  coming soon)*                                     
-  ------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-| Script | Description | | Description
+| Script | Description |
 |---------|-------------|
-| **[Smart Clipboard List Formatter](./Smart-Clipboard-List-Formatter/)** | Convert clipboard text into numbered or prefixed lists with RTL support |
-| **[Smart File Number Renamer](./Smart-File-Number-Renamer/)**  | Renames numbered files by filling gaps in sequential numbering |
+| **[Smart Clipboard List Formatter](./Smart-Clipboard-List-Formatter/)** | Convert clipboard text into numbered or prefixed lists with RTL support. |
+| **[Smart File Number Renamer](./Smart-File-Number-Renamer/)**  | Renames numbered files by filling gaps in sequential numbering while preserving leading zeros. |
 | ... | ... |
+
 
 ## 🗂 Categories
 
