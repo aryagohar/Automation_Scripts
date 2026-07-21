@@ -11,4 +11,5 @@ A collection of Python automation utilities.
 | Script | Description |
 |---------|-------------|
 | Clipboard-To-List-Formatter | Convert clipboard text into numbered or prefixed lists with RTL support |
+| Smart-File-Number-Renamer | Renames numbered files by filling gaps in sequential numbering |
 | ... | ... |
