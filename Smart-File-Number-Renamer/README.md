@@ -8,7 +8,7 @@
 
 [\![Status\](https://img.shields.io/badge/Status-Active-success)\]()
 
-[\![GitHub release\]([https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)\](https://github.com/aryagohar/Automation_Scripts/releases](https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts/releases)
+[![GitHub release](https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts/releases)
 
 [\![Downloads\](https://img.shields.io/github/downloads/aryagohar/Automation_Scripts/total)\](https://github.com/aryagohar/Automation_Scripts/releases)
 
