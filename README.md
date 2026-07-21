@@ -46,6 +46,7 @@ installing Python.
 | **[Smart File Number Renamer](./Smart-File-Number-Renamer/)**  | Renames numbered files by filling gaps in sequential numbering while preserving leading zeros. |
 | ... | ... |
 
+------------------------------------------------------------------------
 
 ## 🗂 Categories
 
