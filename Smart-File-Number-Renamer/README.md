@@ -1,27 +1,22 @@
 # Smart File Number Renamer
 
-\[\![Python
-Version\](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)\](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-\[\![Platform\](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)\]()
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
 
-\[\![License:
-MIT\](https://img.shields.io/badge/License-MIT-green.svg)\](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-\[\![Status\](https://img.shields.io/badge/Status-Active-success)\]()
+[![Status](https://img.shields.io/badge/Status-Active-success)]()
 
-\[\![GitHub
-release\]([https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)\](https://github.com/aryagohar/Automation_Scripts/releases](https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts/releases))
+[![GitHub release](https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts/releases)
 
-\[\![Downloads\](https://img.shields.io/github/downloads/aryagohar/Automation_Scripts/total)\](https://github.com/aryagohar/Automation_Scripts/releases)
+[![Downloads](https://img.shields.io/github/downloads/aryagohar/Automation_Scripts/total)](https://github.com/aryagohar/Automation_Scripts/releases)
 
-\[\![Repo
-Size\](https://img.shields.io/github/repo-size/aryagohar/Automation_Scripts)\](https://github.com/aryagohar/Automation_Scripts)
+[![Repo Size](https://img.shields.io/github/repo-size/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts)
 
-\[\![Last
-Commit\](https://img.shields.io/github/last-commit/aryagohar/Automation_Scripts)\](https://github.com/aryagohar/Automation_Scripts)
+[![Last Commit](https://img.shields.io/github/last-commit/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts)
 
-\[\![Stars\](https://img.shields.io/github/stars/aryagohar/Automation_Scripts?style=social)\](https://github.com/aryagohar/Automation_Scripts)
+[![Stars](https://img.shields.io/github/stars/aryagohar/Automation_Scripts?style=social)](https://github.com/aryagohar/Automation_Scripts)
 
 [Python](https://www.python.org/)
 

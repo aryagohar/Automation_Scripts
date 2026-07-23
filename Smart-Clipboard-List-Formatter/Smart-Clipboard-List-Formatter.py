@@ -125,6 +125,9 @@ def main():
     # Create and copy the formatted output back to clipboard
     pc.copy(line_formatter(lines, start_number, flag, full_stop))
     print("\nNumbered text copied to clipboard.")
+    
+    input("\nFinished. Press Enter to exit...")
+
 
 if __name__ == '__main__':
     main()

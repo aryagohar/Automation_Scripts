@@ -99,6 +99,9 @@ def main():
             break
 
     smart_file_number_renamer(folder, num_position)
+    
+    input("\nFinished. Press Enter to exit...")
+
 
 
 if __name__ == "__main__":
