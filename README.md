@@ -44,7 +44,7 @@ installing Python.
 |---------|-------------|
 | **[Smart Clipboard List Formatter](./Smart-Clipboard-List-Formatter/)** | Convert clipboard text into numbered or prefixed lists with RTL support. |
 | **[Smart File Number Renamer](./Smart-File-Number-Renamer/)**  | Renames numbered files by filling gaps in sequential numbering while preserving leading zeros. |
-| **[Smart Duplicate Filename Finder](./Smart-Duplicate-Filename-Finder/)**  | Renames numbered files by filling gaps in sequential numbering while preserving leading zeros. |
+| **[Smart Duplicate Filename Finder](./Smart-Duplicate-Filename-Finder/)**  | A lightweight Python utility that recursively scans a folder tree and finds duplicate filenames. |
 | ... | ... |
 
 ------------------------------------------------------------------------
