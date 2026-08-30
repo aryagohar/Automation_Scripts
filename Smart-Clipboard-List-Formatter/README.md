@@ -1,7 +1,7 @@
 # Smart Clipboard List Formatter
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 
 A lightweight yet powerful Python utility that transforms clipboard text into clean, well-formatted lists.
