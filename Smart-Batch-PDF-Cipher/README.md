@@ -1,5 +1,30 @@
 # Smart Batch PDF Cipher
 
+[![Python Version](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+[![Status](https://img.shields.io/badge/Status-Active-success)]()
+
+[![AES-256](https://img.shields.io/badge/Encryption-AES--256-blue)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+
+[![pypdf](https://img.shields.io/badge/PDF-pypdf-red)](https://pypi.org/project/pypdf/)
+
+[![Cryptography](https://img.shields.io/badge/Cryptography-AES--256-orange)](https://pypi.org/project/cryptography/)
+
+[![GitHub release](https://img.shields.io/github/v/release/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts/releases)
+
+[![Downloads](https://img.shields.io/github/downloads/aryagohar/Automation_Scripts/total)](https://github.com/aryagohar/Automation_Scripts/releases)
+
+[![Repo Size](https://img.shields.io/github/repo-size/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts)
+
+[![Last Commit](https://img.shields.io/github/last-commit/aryagohar/Automation_Scripts)](https://github.com/aryagohar/Automation_Scripts)
+
+[![Stars](https://img.shields.io/github/stars/aryagohar/Automation_Scripts?style=social)](https://github.com/aryagohar/Automation_Scripts)
+
+
 A lightweight Python command-line utility for **batch encrypting and decrypting PDF files recursively**.
 
 **Smart Batch PDF Cipher** uses [`pypdf`](https://pypi.org/project/pypdf/) together with [`cryptography`](https://pypi.org/project/cryptography/) to encrypt PDF files using **AES-256**.
