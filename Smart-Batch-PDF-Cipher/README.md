@@ -841,7 +841,6 @@ The current version intentionally keeps the interface simple.
 
 Current limitations include:
 
-- Only files ending in lowercase `.pdf` are matched.
 - There is no `--dry-run` mode.
 - There is no interactive confirmation before deleting originals.
 - There is no option to specify a separate output directory.
@@ -851,31 +850,11 @@ Current limitations include:
 - The program processes PDFs recursively from the specified directory.
 - The original file is removed after successful processing.
 
-For example, the current implementation:
-
-```python
-filename.endswith(".pdf")
-```
-
-does not match:
-
-```text
-document.PDF
-```
-
-This could be improved in a future version with:
-
-```python
-filename.lower().endswith(".pdf")
-```
-
----
 
 # Possible Future Improvements
 
 Potential future enhancements include:
 
-- [ ] Case-insensitive `.PDF` detection
 - [ ] `--dry-run` mode
 - [ ] Optional preservation of original files
 - [ ] Confirmation before deleting originals
